@@ -1,0 +1,9 @@
+#img-bg{
+    background-image: url('https://fotos.vivadecora.com.br/decoracao-recepcao-consultorio-odontologico-andreaburatto-151353-proportional-height_cover_medium.jpg');
+
+    min-height: 970px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
