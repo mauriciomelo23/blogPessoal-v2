@@ -23,7 +23,8 @@ export class EntrarComponent implements OnInit {
   }
 
   entrar(){
-    this.auth.entrar(this.userLogin).subscribe((resp: UserLogin)=>{
+    this.auth.entrar(this.userLogin).subscribe((resp: UserLogin)=>{ 
+
       environment.token = this.userLogin.token
       environment.nome = this.userLogin.nome
       environment.foto = this.userLogin.foto
