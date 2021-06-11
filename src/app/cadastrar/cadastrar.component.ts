@@ -29,7 +29,7 @@ export class CadastrarComponent implements OnInit {
   }
 
   tipoUser(event: any){
-    this.tipoUsuario = event.targe.value
+    this.tipoUsuario = event.target.value
   }
 
   cadastrar() {
